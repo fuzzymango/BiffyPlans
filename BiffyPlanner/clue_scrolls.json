@@ -1,0 +1,42 @@
+{
+	"rid": "beginner_clue_scroll_solver",
+	"scripts": [
+		{
+			"name": "ClueScrolls",
+			"stepId": "Solve beginner clue",
+			"equipment": [
+				{
+					"name": "Chronicle",
+					"quantity": 1
+				},
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Fire rune",
+					"quantity": 100
+				},
+				{
+					"name": "Water rune",
+					"quantity": 100
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Spade",
+					"quantity": 1
+				},
+				{
+					"name": "Clue scroll (beginner)",
+					"quantity": 1
+				}
+			]
+		}
+	],
+	"restart": false
+}
