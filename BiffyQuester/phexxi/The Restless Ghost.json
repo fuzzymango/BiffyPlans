@@ -1,0 +1,135 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Chapel",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3240.0,
+        "y1": 3204.0,
+        "x2": 3453.0,
+        "y2": 3421.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Start Quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Father Aereck",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Hut",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3144.0,
+        "y1": 3173.0,
+        "x2": 3316.0,
+        "y2": 3342.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Father Urhney",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Father Urhney",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to coffin",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3247.0,
+        "y1": 3190.0,
+        "x2": 3376.0,
+        "y2": 3320.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Equip Ghostspeak Amulet",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Ghostspeak amulet",
+      "action": "Wear",
+      "targetItem": {
+        "id": 552,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Open coffin",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Coffin",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.Wait",
+      "stepId": "Wait for ghost spawn",
+      "state": "COMPLETED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Ghost",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Restless ghost",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Wizard\u0027s Tower",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3111.0,
+        "y1": 9564.0,
+        "x2": 3166.0,
+        "y2": 9614.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Search Altar",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Altar",
+      "action": "Search"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to coffin",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3247.0,
+        "y1": 3190.0,
+        "x2": 3258.0,
+        "y2": 3202.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Search coffin",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Coffin",
+      "action": "Search"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+	"rid": "continue_combat",
+	"scripts": [
+		{
+			"name": "Combat",
+			"stepId": "Defence to 10",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "DEFENCE",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Mithril scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Defence",
+				"level": 10
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Strength to 30",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGTH",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Mithril scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				}
+			],
+			"stopCondition": {
+				"skill": "Strength",
+				"level": 30
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Attack to 30",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "ATTACK",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Mithril scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				}
+			],
+			"stopCondition": {
+				"skill": "Attack",
+				"level": 30
+			}
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Addy scimitar",
+			"items": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Combat",
+			"stepId": "Strength 30-35",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGTH",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				}
+			],
+			"stopCondition": {
+				"skill": "Strength",
+				"level": 35
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Attack 30-40",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "ATTACK",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				}
+			],
+			"stopCondition": {
+				"skill": "Attack",
+				"level": 40
+			}
+		},
+		{
+			"name": "WizardHats",
+			"stepId": "Wizard hat shopping",
+			"investment": 1000,
+			"equipment": [],
+			"inventory": [
+				{
+					"name": "Coins",
+					"quantity": 1000
+				}
+			],
+			"stopCondition": {
+				"time": 60
+			}
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell hats",
+			"items": [
+				{
+					"name": "Blue wizard hat",
+					"quantity": -1,
+					"force": false
+				},
+				{
+					"name": "Wizard hat",
+					"quantity": -1,
+					"force": false
+				}
+			],
+			"inventory": [
+				{
+					"name": "Blue wizard hat",
+					"quantity": -1,
+					"noted": true
+				},
+				{
+					"name": "Wizard hat",
+					"quantity": -1,
+					"noted": true
+				}
+			]
+		}
+	],
+	"restart": false
+}

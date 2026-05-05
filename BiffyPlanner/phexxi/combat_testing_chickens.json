@@ -1,0 +1,25 @@
+{
+	"rid": "planner_config",
+	"scripts": [
+		{
+			"name": "Combat",
+			"stepId": "Testing Combat",
+			"lootWhitelist": ["Feather", "Bones"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGTH",
+			"target": "Chicken",
+			"location": "LUMBRIDGE_CHICKENS",
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "gte",
+					"value": 27
+				}
+			]
+
+		}
+	],
+	"restart": false
+}

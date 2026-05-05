@@ -1,0 +1,62 @@
+{
+	"rid": "fishing_1to40",
+	"scripts": [
+		{
+			"name": "Fisher",
+			"stepId": "Levels 1-20",
+			"resource": "Shrimp",
+			"location": "DRAYNOR_NET",
+			"stopCondition": {
+				"skill": "Fishing",
+				"level": 20
+			},
+			"equipment": [],
+			"inventory": [
+				{
+					"name": "Small fishing net",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Fishing Rod and Feathers",
+			"items": [
+				{
+					"name": "Fly fishing rod",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Feather",
+					"quantity": 800,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Fisher",
+			"stepId": "Levels 20-40",
+			"resource": "Salmon",
+			"location": "BARBARIAN_VILLAGE_ROD",
+			"stopCondition": {
+				"skill": "Fishing",
+				"level": 40
+			},
+			"equipment": [],
+			"inventory": [
+				{
+					"name": "Fly fishing rod",
+					"quantity": 1
+				},
+				{
+					"name": "Feather",
+					"quantity": 800
+				}
+			]
+		}
+	],
+	"restart": false
+}

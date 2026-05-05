@@ -1,0 +1,37 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Buy ores and clay from Grand Exchange",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Ensure quest materials are in inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Doric\u0027s house (start)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2950.0,
+        "y1": 3449.0,
+        "x2": 2974.0,
+        "y2": 3472.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Doric (start quest)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Doric",
+      "dialogueOrder": []
+    }
+  ]
+}

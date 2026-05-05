@@ -1,0 +1,46 @@
+{
+	"rid": "wizard_hats",
+	"scripts": [
+		{
+			"name": "WizardHats",
+			"stepId": "Test wizard hat shopping",
+			"investment": 500,
+			"equipment": [],
+			"inventory": [
+				{
+					"name": "Coins",
+					"quantity": 500
+				}
+			]
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell hats",
+			"items": [
+				{
+					"name": "Blue wizard hat",
+					"quantity": -1,
+					"force": false
+				},
+				{
+					"name": "Wizard hat",
+					"quantity": -1,
+					"force": false
+				}
+			],
+			"inventory": [
+				{
+					"name": "Blue wizard hat",
+					"quantity": -1,
+					"noted": true
+				},
+				{
+					"name": "Wizard hat",
+					"quantity": -1,
+					"noted": true
+				}
+			]
+		}
+	],
+	"restart": true
+}

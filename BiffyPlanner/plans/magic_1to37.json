@@ -1,0 +1,259 @@
+{
+	"rid": "magic_1to37",
+	"scripts": [
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Gear and Runes",
+			"items": [
+				{
+					"name": "Wizard hat",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Amulet of magic",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Black robe",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Zamorak monk bottom",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Staff of air",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Mind rune",
+					"quantity": 700,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Combat",
+			"stepId": "Level 1-17",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "MAGIC",
+			"spell": "WIND_STRIKE",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Wizard hat",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of magic",
+					"quantity": 1
+				},
+				{
+					"name": "Black robe",
+					"quantity": 1
+				},
+				{
+					"name": "Zamorak monk bottom",
+					"quantity": 1
+				},
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Mind rune",
+					"quantity": 400
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 27
+				}
+			],
+			"stopCondition": {
+				"skill": "Magic",
+				"level": 17
+			}
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Chaos & Air runes",
+			"items": [
+				{
+					"name": "Chaos rune",
+					"quantity": 1600,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Staff of earth",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Air rune",
+					"quantity": 3000,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Combat",
+			"stepId": "Level 17-29",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "MAGIC",
+			"spell": "WIND_BOLT",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Wizard hat",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of magic",
+					"quantity": 1
+				},
+				{
+					"name": "Black robe",
+					"quantity": 1
+				},
+				{
+					"name": "Zamorak monk bottom",
+					"quantity": 1
+				},
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Chaos rune",
+					"quantity": 400
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 27
+				}
+			],
+			"stopCondition": {
+				"skill": "Magic",
+				"level": 29
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Level 29-37",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "MAGIC",
+			"spell": "EARTH_BOLT",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Wizard hat",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of magic",
+					"quantity": 1
+				},
+				{
+					"name": "Black robe",
+					"quantity": 1
+				},
+				{
+					"name": "Zamorak monk bottom",
+					"quantity": 1
+				},
+				{
+					"name": "Staff of earth",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Chaos rune",
+					"quantity": 400
+				},
+				{
+					"name": "Air rune",
+					"quantity": 800
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 26
+				}
+			],
+			"stopCondition": {
+				"skill": "Magic",
+				"level": 37
+			}
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy teleport runes",
+			"items": [
+				{
+					"name": "Law rune",
+					"quantity": 300,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Fire rune",
+					"quantity": 1000,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 1000,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Water rune",
+					"quantity": 1000,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		}
+	],
+	"restart": false
+}

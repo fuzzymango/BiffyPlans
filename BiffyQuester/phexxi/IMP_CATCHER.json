@@ -1,0 +1,43 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Buy beads from Grand Exchange",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Ensure beads are in inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to top floor of Wizards\u0027 Tower",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3103.0,
+        "y1": 3162.0,
+        "x2": 3206.0,
+        "y2": 3265.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Wizard Mizgog (start quest)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Wizard Mizgog",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleCutscene",
+      "stepId": "Wait for cutscene",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    }
+  ]
+}

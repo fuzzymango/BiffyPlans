@@ -1,0 +1,163 @@
+{
+	"rid": "woodcutting_1to60",
+	"scripts": [
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 1-15",
+			"resource": "Tree",
+			"location": "TREE",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 15
+			},
+			"equipment": [
+				{
+					"name": "Bronze axe",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 15-21",
+			"resource": "Oak",
+			"location": "SE_GE",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 20
+			},
+			"equipment": [
+				{
+					"name": "Bronze axe",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell Oak + Logs",
+			"items": [
+				{
+					"name": "Logs",
+					"quantity": -1,
+					"force": true
+				},
+				{
+					"name": "Oak logs",
+					"quantity": -1,
+					"force": true
+				}
+			],
+			"inventory": []
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Mithril axe",
+			"items": [
+				{
+					"name": "Mithril axe",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 21-31",
+			"resource": "Oak",
+			"location": "SE_GE",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 31
+			},
+			"equipment": [
+				{
+					"name": "Mithril axe",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell Oak",
+			"items": [
+				{
+					"name": "Oak logs",
+					"quantity": -1,
+					"force": true
+				}
+			],
+			"inventory": []
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Adamant axe",
+			"items": [
+				{
+					"name": "Adamant axe",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 31-41",
+			"resource": "Willow",
+			"location": "LUMBRIDGE_WEST_FARM_WILLOWS",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 41
+			},
+			"inventory": [
+				{
+					"name": "Adamant axe",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell Willow",
+			"items": [
+				{
+					"name": "Willow logs",
+					"quantity": -1,
+					"force": true
+				}
+			],
+			"inventory": []
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Rune axe",
+			"items": [
+				{
+					"name": "Rune axe",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 41-60",
+			"resource": "Willow",
+			"location": "LUMBRIDGE_WEST_FARM_WILLOWS",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 60
+			},
+			"inventory": [
+				{
+					"name": "Rune axe",
+					"quantity": 1
+				}
+			]
+		}
+	],
+	"restart": false
+}

@@ -1,0 +1,97 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Buy dye supplies",
+      "state": "COMPLETED",
+      "internalState": "TO_GE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Configure inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnItem",
+      "stepId": "Make orange dye",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnItem",
+      "stepId": "Dye goblin mail orange",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnItem",
+      "stepId": "Dye goblin mail blue",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Goblin Village",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2954.0,
+        "y1": 3510.0,
+        "x2": 3210.0,
+        "y2": 3761.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Goblin Generals (start quest)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "General Wartface",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnNPC",
+      "stepId": "Give orange armour",
+      "state": "COMPLETED",
+      "internalState": "FINDING_ITEM",
+      "itemName": "Orange goblin mail",
+      "npcName": "General Wartface"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleCutscene",
+      "stepId": "First cutscene",
+      "state": "COMPLETED",
+      "internalState": "WAIT_FOR_NEXT_CUTSCENE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnNPC",
+      "stepId": "Give blue armour",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED_ON_NPC",
+      "itemName": "Blue goblin mail",
+      "npcName": "General Wartface"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleCutscene",
+      "stepId": "Second cutscene",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnNPC",
+      "stepId": "Give regular armour",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED_ON_NPC",
+      "itemName": "Goblin mail",
+      "npcName": "General Wartface"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleCutscene",
+      "stepId": "Third cutscene",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    }
+  ]
+}

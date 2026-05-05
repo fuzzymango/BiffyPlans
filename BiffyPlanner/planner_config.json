@@ -1,0 +1,11 @@
+{
+	"rid": "planner_config",
+	"scripts": [
+		{
+			"name": "Quest",
+			"stepId": "Complete Ernest the Chicken",
+			"questName": "ErnestTheChicken"
+		}
+	],
+	"restart": true
+}

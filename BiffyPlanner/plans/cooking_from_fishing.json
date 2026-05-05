@@ -1,0 +1,167 @@
+{
+	"rid": "cooking_from_fishing",
+	"scripts": [
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Shrimp",
+			"resource": "Raw shrimps",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw shrimps",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"skill": "Cooking",
+				"level": 15,
+				"bankContains": [
+					{
+						"item": "Raw shrimps",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Anchovies",
+			"resource": "Raw anchovies",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw anchovies",
+					"quantity": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Cooking",
+				"level": 15,
+				"bankContains": [
+					{
+						"item": "Raw anchovies",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Trout",
+			"resource": "Raw trout",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw trout",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"skill": "Cooking",
+				"bankContains": [
+					{
+						"item": "Raw trout",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Salmon",
+			"resource": "Raw salmon",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw salmon",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"skill": "Cooking",
+				"bankContains": [
+					{
+						"item": "Raw salmon",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Tuna",
+			"resource": "Raw tuna",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw tuna",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"skill": "Cooking",
+				"level": 45,
+				"bankContains": [
+					{
+						"item": "Raw tuna",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Lobster",
+			"resource": "Raw lobster",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw lobster",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"bankContains": [
+					{
+						"item": "Raw lobster",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		},
+		{
+			"name": "Cooker",
+			"stepId": "Cooking Swordfish",
+			"resource": "Raw swordfish",
+			"location": "FALADOR_RANGE",
+			"inventory": [
+				{
+					"name": "Raw swordfish",
+					"quantity": 28,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"bankContains": [
+					{
+						"item": "Raw swordfish",
+						"condition": "eq",
+						"value": 0
+					}
+				]
+			}
+		}
+	],
+	"restart": true
+}

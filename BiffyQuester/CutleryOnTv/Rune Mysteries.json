@@ -1,0 +1,98 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Duke Horacio",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3208.0,
+        "y1": 3218.0,
+        "x2": 3464.0,
+        "y2": 3476.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Duke Horacio",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Duke Horacio",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Wizard\u0027s Tower",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3102.0,
+        "y1": 9566.0,
+        "x2": 3308.0,
+        "y2": 9775.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Archmage Sedridor",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Archmage Sedridor",
+      "dialogueOrder": [
+        "Yes, certainly."
+      ]
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Varrock Rune Shop",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3252.0,
+        "y1": 3400.0,
+        "x2": 3390.0,
+        "y2": 3538.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Aubury",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Aubury",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Aubury again",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Aubury",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to Wizard\u0027s Tower",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3102.0,
+        "y1": 9566.0,
+        "x2": 3128.0,
+        "y2": 9595.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Finish quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Archmage Sedridor",
+      "dialogueOrder": []
+    }
+  ]
+}

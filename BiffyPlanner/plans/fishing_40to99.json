@@ -1,0 +1,95 @@
+{
+	"rid": "fishing_40to99",
+	"scripts": [
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Lobster pot + harpoon",
+			"items": [
+				{
+					"name": "Lobster pot",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Harpoon",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Fisher",
+			"stepId": "Levels 40-50",
+			"resource": "Lobster",
+			"location": "MUSA_POINT_POT",
+			"bankLocation": "FALADOR_EAST",
+			"stopCondition": {
+				"skill": "Fishing",
+				"level": 50
+			},
+			"equipment": [
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Lobster pot",
+					"quantity": 1
+				},
+				{
+					"name": "Law rune",
+					"quantity": 50
+				},
+				{
+					"name": "Water rune",
+					"quantity": 50
+				},
+				{
+					"name": "Coins",
+					"quantity": 1200
+				}
+			]
+		},
+		{
+			"name": "Fisher",
+			"stepId": "Levels 50-99",
+			"resource": "Swordfish",
+			"location": "MUSA_POINT_POT",
+			"bankLocation": "FALADOR_EAST",
+			"stopCondition": {
+				"skill": "Fishing",
+				"level": 99,
+				"time": 48
+			},
+			"equipment": [
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Harpoon",
+					"quantity": 1
+				},
+				{
+					"name": "Law rune",
+					"quantity": 50
+				},
+				{
+					"name": "Water rune",
+					"quantity": 50
+				},
+				{
+					"name": "Coins",
+					"quantity": 1200
+				}
+			]
+		}
+	],
+	"restart": false
+}

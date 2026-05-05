@@ -1,0 +1,367 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to south of Rusty Anchor",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3044.0,
+        "y1": 3245.0,
+        "x2": 3674.0,
+        "y2": 3869.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Redbeard Frank",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Redbeard Frank",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to boat to Musa Point",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3026.0,
+        "y1": 3215.0,
+        "x2": 3578.0,
+        "y2": 3771.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Seaman Lorris",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Seaman Lorris",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to pub",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2922.0,
+        "y1": 3142.0,
+        "x2": 3459.0,
+        "y2": 3677.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.BuyFromShop",
+      "stepId": "Buy rum",
+      "state": "COMPLETED",
+      "internalState": "ITEMS_BOUGHT"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Luthas",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2938.0,
+        "y1": 3152.0,
+        "x2": 3448.0,
+        "y2": 3663.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Luthas",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Luthas",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to banana plantation",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2916.0,
+        "y1": 3154.0,
+        "x2": 3414.0,
+        "y2": 3657.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.Quests.PiratesTreasure.PickBananas",
+      "stepId": "Pick bananas",
+      "state": "COMPLETED",
+      "internalState": "BANANAS_PICKED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to crate",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2939.0,
+        "y1": 3149.0,
+        "x2": 3195.0,
+        "y2": 3404.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Fill create",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Crate",
+      "action": "Fill"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Add rum to crate",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Karamjan rum",
+      "objectName": "Crate"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Luthas again",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Luthas",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to seaman",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2952.0,
+        "y1": 3146.0,
+        "x2": 3186.0,
+        "y2": 3380.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Customs Officer",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Customs Officer",
+      "dialogueOrder": [
+        "Ok."
+      ]
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to fishing store (for apron)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3015.0,
+        "y1": 3225.0,
+        "x2": 3230.0,
+        "y2": 3441.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take apron",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "White apron",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Equip apron",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "White apron",
+      "action": "Wear",
+      "targetItem": {
+        "id": 1005,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to food store",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3012.0,
+        "y1": 3204.0,
+        "x2": 3192.0,
+        "y2": 3384.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Trigger door dialogue",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Handle Wydin dialogue",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to closest crate",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3010.0,
+        "y1": 3207.0,
+        "x2": 3171.0,
+        "y2": 3368.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Search crate",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Crate",
+      "action": "Search"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go back to Redbeard Frank",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3044.0,
+        "y1": 3245.0,
+        "x2": 3199.0,
+        "y2": 3394.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Redbeard Frank again",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Redbeard Frank",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Blue Moon Inn",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3218.0,
+        "y1": 3394.0,
+        "x2": 3305.0,
+        "y2": 3480.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Open Chest",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Chest Key",
+      "objectName": "Chest"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to dig location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2999.0,
+        "y1": 3383.0,
+        "x2": 3027.0,
+        "y2": 3411.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Read Pirate Message",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Pirate message",
+      "action": "Read",
+      "targetItem": {
+        "id": 433,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Spade",
+      "action": "Dig",
+      "targetItem": {
+        "id": 952,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Run away from Farmer",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2985.0,
+        "y1": 3368.0,
+        "x2": 3000.0,
+        "y2": 3383.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to dig location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2999.0,
+        "y1": 3383.0,
+        "x2": 3005.0,
+        "y2": 3389.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig again",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Spade",
+      "action": "Dig",
+      "targetItem": {
+        "id": 952,
+        "amount": 1
+      },
+      "itemUsed": true
+    }
+  ]
+}

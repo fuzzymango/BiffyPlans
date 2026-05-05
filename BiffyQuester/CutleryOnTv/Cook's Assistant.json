@@ -1,0 +1,188 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to kitchen (start)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3205.0,
+        "y1": 3212.0,
+        "x2": 3392.0,
+        "y2": 3396.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Start Quest",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Cook",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take pot off table",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Pot",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to bucket spawn",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3211.0,
+        "y1": 9620.0,
+        "x2": 3344.0,
+        "y2": 9753.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take bucket off table",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Bucket",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to dairy cow",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3251.0,
+        "y1": 3272.0,
+        "x2": 3363.0,
+        "y2": 3383.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Milk cow",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Dairy cow",
+      "action": "Milk"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to chicken coop",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3225.0,
+        "y1": 3295.0,
+        "x2": 3324.0,
+        "y2": 3389.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take egg from nest",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Egg",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to wheat field",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3154.0,
+        "y1": 3295.0,
+        "x2": 3225.0,
+        "y2": 3361.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Pick wheat",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Wheat",
+      "action": "Pick"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to top of mill",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3164.0,
+        "y1": 3305.0,
+        "x2": 3219.0,
+        "y2": 3359.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Use grain on hopper",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Grain",
+      "objectName": "Hopper"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Operate hopper controls",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Hopper controls",
+      "action": "Operate"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to bottom of mill",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3164.0,
+        "y1": 3305.0,
+        "x2": 3204.0,
+        "y2": 3344.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Empty Flour bin",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Flour bin",
+      "action": "Empty"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to the cook",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3205.0,
+        "y1": 3212.0,
+        "x2": 3226.0,
+        "y2": 3230.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Finish Quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Cook",
+      "dialogueOrder": []
+    }
+  ]
+}

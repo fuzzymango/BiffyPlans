@@ -1,0 +1,12 @@
+{
+	"scripts": [
+		{
+			"name": "Woodcutter",
+			"stepId": "Level Woodcutting to 10",
+			"resource": "Tree",
+			"stopCondition": {
+				"Woodcutting": 15
+			}
+		}
+	]
+}

@@ -1,0 +1,259 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Purchase required items",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Configure Inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Al-Kharid palace",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3289.0,
+        "y1": 3159.0,
+        "x2": 3992.0,
+        "y2": 3855.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Start quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Chancellor Hassan",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Osman",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3285.0,
+        "y1": 3179.0,
+        "x2": 3964.0,
+        "y2": 3851.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk with Osman",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Osman",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Draynor Village",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3096.0,
+        "y1": 3256.0,
+        "x2": 3660.0,
+        "y2": 3821.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Ned",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Ned",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Aggie",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3083.0,
+        "y1": 3256.0,
+        "x2": 3623.0,
+        "y2": 3797.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Aggie",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Aggie",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Get in jail",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3126.0,
+        "y1": 3243.0,
+        "x2": 3525.0,
+        "y2": 3642.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Close door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Close"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk with Lady Keli",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Lady Keli",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to Osman",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3285.0,
+        "y1": 3179.0,
+        "x2": 3615.0,
+        "y2": 3502.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk with Osman 2",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Osman",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnItem",
+      "stepId": "Make disguise",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Leela",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3106.0,
+        "y1": 3258.0,
+        "x2": 3372.0,
+        "y2": 3525.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk with Leela",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Leela",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to jail",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3126.0,
+        "y1": 3243.0,
+        "x2": 3367.0,
+        "y2": 3484.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Close door 2",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Close"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Joe",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Joe",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnNPC",
+      "stepId": "Use Rope on Keli",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED_ON_NPC",
+      "itemName": "Rope",
+      "npcName": "Lady Keli"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Unlock gate",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Bronze key",
+      "objectName": "Prison Gate"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk with Prince Ali",
+      "state": "COMPLETED",
+      "internalState": "FINDING_NPC",
+      "npcName": "Prince Ali",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Open Prison gate",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Prison Gate",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to palace",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3289.0,
+        "y1": 3159.0,
+        "x2": 3310.0,
+        "y2": 3173.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Finish Quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Chancellor Hassan",
+      "dialogueOrder": []
+    }
+  ]
+}

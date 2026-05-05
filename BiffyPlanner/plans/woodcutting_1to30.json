@@ -1,0 +1,92 @@
+{
+	"scripts": [
+		{
+			"name": "SetInventory",
+			"stepdId": "Clear inventory",
+			"items": []
+		},
+		{
+			"name": "SetEquipment",
+			"stepId": "Equip Bronze axe",
+			"items": [{
+				"name": "Bronze axe",
+				"quantity": 1
+			}]
+
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 1-15",
+			"resource": "Tree",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 15
+			}
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 15-21",
+			"resource": "Oak",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 21
+			}
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell all logs",
+			"items": [
+				{
+					"name": "Logs",
+					"quantity": -1,
+					"force": true
+				},
+				{
+					"name": "Oak logs",
+					"quantity": -1,
+					"force": true
+				}
+			]
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Mithril axe",
+			"items": [
+				{
+					"name": "Mithril axe",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "SetEquipment",
+			"stepId": "Equip Mithril axe",
+			"items": [{
+				"name": "Mithril axe",
+				"quantity": 1
+			}]
+
+		},
+		{
+			"name": "Woodcutter",
+			"stepId": "Level 21-30",
+			"resource": "Oak",
+			"stopCondition": {
+				"skill": "Woodcutting",
+				"level": 30
+			}
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell Oak logs",
+			"items": [
+				{
+					"name": "Oak logs",
+					"quantity": -1
+				}
+			]
+		}
+	]
+}

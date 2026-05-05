@@ -1,0 +1,138 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Lumbridge Pub",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3226.0,
+        "y1": 3236.0,
+        "x2": 3383.0,
+        "y2": 3392.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Veos",
+      "state": "COMPLETED",
+      "internalState": "TALKING_TO_NPC",
+      "npcName": "Veos",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to dig location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3230.0,
+        "y1": 3209.0,
+        "x2": 3317.0,
+        "y2": 3296.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig at location",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemUsed": false
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to orb dig location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3203.0,
+        "y1": 3212.0,
+        "x2": 3276.0,
+        "y2": 3285.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig at orb location",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to dig location 3",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3108.0,
+        "y1": 3264.0,
+        "x2": 3158.0,
+        "y2": 3314.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig at 3rd location",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Spade",
+      "action": "Dig",
+      "targetItem": {
+        "id": 952,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to dig location 4",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3078.0,
+        "y1": 3260.0,
+        "x2": 3114.0,
+        "y2": 3296.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItem",
+      "stepId": "Dig at 4th location",
+      "state": "COMPLETED",
+      "internalState": "ITEM_USED",
+      "itemName": "Spade",
+      "action": "Dig",
+      "targetItem": {
+        "id": 952,
+        "amount": 1
+      },
+      "itemUsed": true
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to new Veos location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3050.0,
+        "y1": 3245.0,
+        "x2": 3074.0,
+        "y2": 3268.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Veos again",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Veos",
+      "dialogueOrder": []
+    }
+  ]
+}

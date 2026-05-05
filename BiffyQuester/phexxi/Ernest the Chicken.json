@@ -1,0 +1,690 @@
+{
+  "steps": [
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Draynor Manor entrance",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3108.0,
+        "y1": 3327.0,
+        "x2": 3693.0,
+        "y2": 3912.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Veronica (Quest start)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Veronica",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to poison room (1st floor)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3097.0,
+        "y1": 3364.0,
+        "x2": 3656.0,
+        "y2": 3922.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take poison",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Poison",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go upstairs to 2nd floor",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3107.0,
+        "y1": 3354.0,
+        "x2": 3646.0,
+        "y2": 3896.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take fish food",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Fish food",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnItem",
+      "stepId": "Make poisoned fish food",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Search bookcase",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3097.0,
+        "y1": 3357.0,
+        "x2": 3617.0,
+        "y2": 3877.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Open secret bookcase",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Bookcase",
+      "action": "Search"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Climb down ladder",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-down"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever B down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever B",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever A down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever A",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 1",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3107.0,
+        "y1": 9757.0,
+        "x2": 3583.0,
+        "y2": 10232.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 1",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever D down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever D",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to door 1",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3109.0,
+        "y1": 9759.0,
+        "x2": 3536.0,
+        "y2": 10186.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 1 again",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever B up",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever B",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever A up",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever A",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 3",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3101.0,
+        "y1": 9757.0,
+        "x2": 3492.0,
+        "y2": 10147.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 3",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 4",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3101.0,
+        "y1": 9760.0,
+        "x2": 3470.0,
+        "y2": 10129.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 4",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 5",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3097.0,
+        "y1": 9762.0,
+        "x2": 3456.0,
+        "y2": 10121.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 5",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever E down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever E",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever F down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever F",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 6",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3099.0,
+        "y1": 9765.0,
+        "x2": 3438.0,
+        "y2": 10104.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 6",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 7",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3104.0,
+        "y1": 9765.0,
+        "x2": 3433.0,
+        "y2": 10094.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 7",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever C down",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever C",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 7 again",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3104.0,
+        "y1": 9765.0,
+        "x2": 3419.0,
+        "y2": 10080.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 7 again",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 6 again",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3101.0,
+        "y1": 9765.0,
+        "x2": 3392.0,
+        "y2": 10056.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 6 again",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Lever E up",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever E",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 6 again again",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3099.0,
+        "y1": 9765.0,
+        "x2": 3375.0,
+        "y2": 10041.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 6 again again",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 8",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3102.0,
+        "y1": 9764.0,
+        "x2": 3363.0,
+        "y2": 10025.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 8",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 3 again",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3102.0,
+        "y1": 9759.0,
+        "x2": 3353.0,
+        "y2": 10010.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 3 final",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 9",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3101.0,
+        "y1": 9755.0,
+        "x2": 3338.0,
+        "y2": 9992.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Enter door 9",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take oil can",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Oil can",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to door 9 exiting",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3098.0,
+        "y1": 9755.0,
+        "x2": 3320.0,
+        "y2": 9977.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Exit door 9",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to ladder exit",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3114.0,
+        "y1": 9752.0,
+        "x2": 3327.0,
+        "y2": 9965.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Climb up ladder",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Pull exit lever",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Lever",
+      "action": "Pull"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to spade location",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3120.0,
+        "y1": 3357.0,
+        "x2": 3311.0,
+        "y2": 3548.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take spade",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Spade",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to exit manor back door",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3123.0,
+        "y1": 3360.0,
+        "x2": 3299.0,
+        "y2": 3536.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Exit manor back door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to compost heap",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3086.0,
+        "y1": 3361.0,
+        "x2": 3245.0,
+        "y2": 3522.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Search compost heap",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Spade",
+      "objectName": "Compost heap"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to fountain",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3088.0,
+        "y1": 3335.0,
+        "x2": 3235.0,
+        "y2": 3482.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Poison fountain",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Poisoned fish food",
+      "objectName": "Fountain"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.Wait",
+      "stepId": "Wait for pressure gauge",
+      "state": "COMPLETED",
+      "internalState": ""
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Search fountain",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Fountain",
+      "action": "Search"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Click through dialogue",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return inside manor",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3107.0,
+        "y1": 3366.0,
+        "x2": 3199.0,
+        "y2": 3458.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Open door under stairs",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Take rubber tube",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Rubber tube",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGameObject",
+      "stepId": "Exit door under stairs",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Professor Oddenstein",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3108.0,
+        "y1": 3362.0,
+        "x2": 3174.0,
+        "y2": 3431.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Finish quest",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Professor Oddenstein",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.Wait",
+      "stepId": "Wait for cutscene",
+      "state": "COMPLETED",
+      "internalState": ""
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Oddenstein",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Professor Oddenstein",
+      "dialogueOrder": [
+        "I\u0027m looking for a guy called Ernest.",
+        "Change him back this instant!"
+      ]
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Complete final dialogue",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    }
+  ]
+}

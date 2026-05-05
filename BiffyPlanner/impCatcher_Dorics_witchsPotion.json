@@ -1,0 +1,87 @@
+{
+	"rid": "impCatcher_Dorics_witchsPotion",
+	"scripts": [
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy quest items",
+			"items": [
+				{
+					"name": "Clay",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Copper ore",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Iron ore",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Cooked meat",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Onion",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Eye of newt",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Black bead",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Red bead",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "White bead",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				},
+				{
+					"name": "Yellow bead",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Quest",
+			"stepId": "Complete Imp Catcher",
+			"questName": "ImpCatcher"
+		},
+		{
+			"name": "Quest",
+			"stepId": "Complete Doric's Quest",
+			"questName": "DoricsQuest"
+		},
+		{
+			"name": "Quest",
+			"stepId": "Complete Witch's Potion",
+			"questName": "WitchsPotion"
+		}
+	],
+	"restart": false
+}

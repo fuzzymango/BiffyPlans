@@ -1,0 +1,11 @@
+{
+	"rid": "goblin_diplomacy_quest",
+	"scripts": [
+		{
+			"name": "Quest",
+			"questName": "GoblinDiplomacy",
+			"stepId": "Complete Goblin Diplomacy"
+		}
+	],
+	"restart": false
+}

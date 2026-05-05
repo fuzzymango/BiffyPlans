@@ -1,0 +1,146 @@
+{
+	"rid": "combat_testing",
+	"scripts": [
+		{
+			"name": "Combat",
+			"stepId": "Strength to 30",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGTH",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Mithril scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Strength",
+				"level": 30
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Attack to 30",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "ATTACK",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Mithril scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Attack",
+				"level": 30
+			}
+		},
+		{
+			"name": "GeBuyer",
+			"stepId": "Buy Addy scimitar",
+			"items": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1,
+					"force": true,
+					"skipIfOwned": true
+				}
+			]
+		},
+		{
+			"name": "Combat",
+			"stepId": "Strength 30-35",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGH",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Strength",
+				"level": 35
+			}
+		},
+		{
+			"name": "Combat",
+			"stepId": "Attack 30-40",
+			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "ATTACK",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Adamant scimitar",
+					"quantity": 1
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 28
+				}
+			],
+			"stopCondition": {
+				"skill": "Attack",
+				"level": 40
+			}
+		},
+	],
+	"restart": false
+}

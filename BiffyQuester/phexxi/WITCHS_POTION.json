@@ -1,0 +1,128 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Purchase required items",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Ensure quest materials are in inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to range",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2966.0,
+        "y1": 3209.0,
+        "x2": 3064.0,
+        "y2": 3307.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Burn meat",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Cooked meat",
+      "objectName": "Range"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Hetty\u0027s house (start)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2965.0,
+        "y1": 3203.0,
+        "x2": 3053.0,
+        "y2": 3290.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Hetty (start quest)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Hetty",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to archery shop rats",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2953.0,
+        "y1": 3202.0,
+        "x2": 3016.0,
+        "y2": 3262.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Kill rat",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Rat",
+      "action": "Attack"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.Wait",
+      "stepId": "Wait for rat to die",
+      "state": "COMPLETED",
+      "internalState": ""
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithGroundItem",
+      "stepId": "Pick up rat\u0027s tail",
+      "state": "COMPLETED",
+      "internalState": "ITEM_INTERACTED",
+      "itemName": "Rat\u0027s tail",
+      "action": "Take"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to Hetty\u0027s house (finish)",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2965.0,
+        "y1": 3203.0,
+        "x2": 2996.0,
+        "y2": 3233.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Hetty (hand in items)",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Hetty",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Drink from cauldron",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Cauldron",
+      "action": "Drink-from"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Finishing quest",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    }
+  ]
+}
