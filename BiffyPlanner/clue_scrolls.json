@@ -28,12 +28,21 @@
 					"quantity": 100
 				},
 				{
+					"name": "Law rune",
+					"quantity": 20
+				},
+				{
 					"name": "Spade",
 					"quantity": 1
 				},
 				{
 					"name": "Clue scroll (beginner)",
 					"quantity": 1
+				},
+				{
+					"name": "Strange device",
+					"quantity": 1,
+					"condition": "lte"
 				}
 			]
 		}
