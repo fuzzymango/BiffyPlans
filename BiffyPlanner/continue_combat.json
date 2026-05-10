@@ -4,7 +4,7 @@
 		{
 			"name": "Combat",
 			"stepId": "Defence to 10",
-			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
 			"lootValueThreshold": 500,
 			"buryBones": true,
 			"bonesName": "Bones",
@@ -36,7 +36,7 @@
 		{
 			"name": "Combat",
 			"stepId": "Strength to 30",
-			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
 			"lootValueThreshold": 500,
 			"buryBones": true,
 			"bonesName": "Bones",
@@ -82,7 +82,7 @@
 		{
 			"name": "Combat",
 			"stepId": "Attack to 30",
-			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
 			"lootValueThreshold": 500,
 			"buryBones": true,
 			"bonesName": "Bones",
@@ -140,7 +140,7 @@
 		{
 			"name": "Combat",
 			"stepId": "Strength 30-35",
-			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
 			"lootValueThreshold": 500,
 			"buryBones": true,
 			"bonesName": "Bones",
@@ -154,6 +154,10 @@
 				},
 				{
 					"name": "Wooden shield",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of strength",
 					"quantity": 1
 				}
 			],
@@ -186,7 +190,7 @@
 		{
 			"name": "Combat",
 			"stepId": "Attack 30-40",
-			"lootWhitelist": ["Bones", "Cowhide"],
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
 			"lootValueThreshold": 500,
 			"buryBones": true,
 			"bonesName": "Bones",
@@ -200,6 +204,10 @@
 				},
 				{
 					"name": "Wooden shield",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of strength",
 					"quantity": 1
 				}
 			],

@@ -1,0 +1,41 @@
+{
+	"rid": "tan_leather",
+	"scripts": [
+		{
+			"name": "TanLeather",
+			"stepId": "Tan cowhides",
+			"resource": "Cowhide",
+			"location": "AL_KHARID_TANNER",
+			"inventory": [
+				{
+					"name": "Cowhide",
+					"quantity": 27,
+					"condition": "lte"
+				},
+				{
+					"name": "Coins",
+					"quantity": 5000,
+					"condition": "lte"
+				}
+			],
+			"stopCondition": {
+				"bankContains": [{
+					"item": "Cowhide",
+					"value": 0,
+					"condition": "eq"
+				}]
+			}
+		},
+		{
+			"name": "GeSeller",
+			"stepId": "Sell Tanned Leather",
+			"items": [
+				{
+					"name": "Leather",
+					"quantity": -1
+				}
+			]
+		}
+	],
+	"restart": true
+}
