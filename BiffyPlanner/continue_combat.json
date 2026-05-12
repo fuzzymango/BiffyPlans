@@ -26,6 +26,16 @@
 					"item": "Cowhide",
 					"condition": "eq",
 					"value": 28
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
@@ -72,6 +82,16 @@
 					"item": "Cowhide",
 					"condition": "eq",
 					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
@@ -118,6 +138,16 @@
 					"item": "Cowhide",
 					"condition": "eq",
 					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
@@ -180,6 +210,16 @@
 					"item": "Cowhide",
 					"condition": "eq",
 					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
@@ -230,6 +270,16 @@
 					"item": "Cowhide",
 					"condition": "eq",
 					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
@@ -238,45 +288,164 @@
 			}
 		},
 		{
-			"name": "WizardHats",
-			"stepId": "Wizard hat shopping",
-			"investment": 1000,
-			"equipment": [],
+			"name": "Combat",
+			"stepId": "Strength 35-40",
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "STRENGTH",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Rune scimitar",
+					"quantity": 1,
+					"fallback": {
+						"name": "Adamant scimitar",
+						"quantity": 1
+					}
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of strength",
+					"quantity": 1
+				}
+			],
 			"inventory": [
 				{
-					"name": "Coins",
-					"quantity": 1000
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
 				}
 			],
 			"stopCondition": {
-				"time": 60
+				"skill": "Strength",
+				"level": 40,
+				"bankContains": [
+					{
+						"item": "Scroll box (beginner)",
+						"condition": "eq",
+						"value": 2
+					}
+				]
 			}
 		},
 		{
-			"name": "GeSeller",
-			"stepId": "Sell hats",
-			"items": [
+			"name": "ClueScrolls",
+			"stepId": "Solve beginner clue",
+			"equipment": [
 				{
-					"name": "Blue wizard hat",
-					"quantity": -1,
-					"force": false
+					"name": "Chronicle",
+					"quantity": 1
 				},
 				{
-					"name": "Wizard hat",
-					"quantity": -1,
-					"force": false
+					"name": "Staff of air",
+					"quantity": 1
 				}
 			],
 			"inventory": [
 				{
-					"name": "Blue wizard hat",
-					"quantity": -1,
-					"noted": true
+					"name": "Fire rune",
+					"quantity": 100
 				},
 				{
-					"name": "Wizard hat",
-					"quantity": -1,
-					"noted": true
+					"name": "Water rune",
+					"quantity": 100
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 20
+				},
+				{
+					"name": "Spade",
+					"quantity": 1
+				},
+				{
+					"name": "Clue scroll (beginner)",
+					"quantity": 1,
+					"fallback": {
+						"name": "Scroll box (beginner)",
+						"quantity": 2,
+						"condition": "lte"
+					}
+				},
+				{
+					"name": "Strange device",
+					"quantity": 1,
+					"condition": "lte"
+				},
+				{
+					"name": "Iron ore",
+					"quantity": 1
+				},
+				{
+					"name": "Iron dagger",
+					"quantity": 1
+				},
+				{
+					"name": "Raw herring",
+					"quantity": 1
+				},
+				{
+					"name": "Raw trout",
+					"quantity": 1
+				},
+				{
+					"name": "Trout",
+					"quantity": 1
+				},
+				{
+					"name": "Pike",
+					"quantity": 1
+				},
+				{
+					"name": "Leather body",
+					"quantity": 1
+				},
+				{
+					"name": "Leather chaps",
+					"quantity": 1
+				},
+				{
+					"name": "Coins",
+					"quantity": 1000
+				},
+				{
+					"name": "Reward casket (beginner)",
+					"quantity": 1,
+					"condition": "lte"
 				}
 			]
 		}

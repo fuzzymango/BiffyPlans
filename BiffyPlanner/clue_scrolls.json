@@ -37,7 +37,12 @@
 				},
 				{
 					"name": "Clue scroll (beginner)",
-					"quantity": 1
+					"quantity": 1,
+					"fallback": {
+						"name": "Scroll box (beginner)",
+						"quantity": 2,
+						"condition": "lte"
+					}
 				},
 				{
 					"name": "Strange device",
@@ -75,6 +80,15 @@
 				{
 					"name": "Leather chaps",
 					"quantity": 1
+				},
+				{
+					"name": "Coins",
+					"quantity": 1000
+				},
+				{
+					"name": "Reward casket (beginner)",
+					"quantity": 1,
+					"condition": "lte"
 				}
 			]
 		}
