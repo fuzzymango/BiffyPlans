@@ -132,5 +132,15 @@
 			]
 		}
 	],
-	"restart": true
+	"restart": true,
+	"stopCondition": {
+		"bankContains": [
+			{
+				"item": "Reward casket (beginner)",
+				"condition": "eq",
+				"value": 6
+			}
+		],
+		"time": 180
+	}
 }
