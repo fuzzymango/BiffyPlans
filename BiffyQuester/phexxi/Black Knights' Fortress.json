@@ -1,0 +1,506 @@
+{
+  "steps": [
+    {
+      "type": "BotScripts.Bots.GeBuyer",
+      "stepId": "Buy armor",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetInventory",
+      "stepId": "Set inventory",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BotScripts.Bots.SetEquipment",
+      "stepId": "Set equipment",
+      "state": "COMPLETED",
+      "internalState": "COMPLETE"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Sir Amik Varze",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2957.0,
+        "y1": 3337.0,
+        "x2": 3783.0,
+        "y2": 4163.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Talk to Sir Amik Varze",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Sir Amik Varze",
+      "dialogueOrder": []
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Edgeville Monastery cabbage patch",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3051.0,
+        "y1": 3503.0,
+        "x2": 3763.0,
+        "y2": 4214.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Pick cabbage",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Cabbage",
+      "action": "Pick"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to Black Knights\u0027 Fortress",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3014.0,
+        "y1": 3512.0,
+        "x2": 3655.0,
+        "y2": 4153.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Enter fortress door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Sturdy door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Push secret wall",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Wall",
+      "action": "Push"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to first ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3014.0,
+        "y1": 3518.0,
+        "x2": 3633.0,
+        "y2": 4137.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up ladder 1",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to second ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3016.0,
+        "y1": 3518.0,
+        "x2": 3553.0,
+        "y2": 4055.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up ladder 2",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to third ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3016.0,
+        "y1": 3515.0,
+        "x2": 3544.0,
+        "y2": 4043.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down ladder 1",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-down"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to fourth ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3022.0,
+        "y1": 3512.0,
+        "x2": 3534.0,
+        "y2": 4024.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up ladder 3",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to fifth ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3024.0,
+        "y1": 3512.0,
+        "x2": 3525.0,
+        "y2": 4013.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down ladder 2",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Open Sturdy door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Sturdy door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to sixth ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3020.0,
+        "y1": 3509.0,
+        "x2": 3439.0,
+        "y2": 3928.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down to basement",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-down"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to grill",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3025.0,
+        "y1": 3506.0,
+        "x2": 3432.0,
+        "y2": 3913.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Listen at grill",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Grill",
+      "action": "Listen-at"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.Wait",
+      "stepId": "Wait for animation",
+      "state": "COMPLETED",
+      "internalState": ""
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Handle witch cutscene",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to basement ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3020.0,
+        "y1": 3509.0,
+        "x2": 3351.0,
+        "y2": 3840.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up from basement",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Back through sturdy door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Sturdy door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to fifth ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3024.0,
+        "y1": 3512.0,
+        "x2": 3319.0,
+        "y2": 3807.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up ladder 4",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to fourth ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3022.0,
+        "y1": 3512.0,
+        "x2": 3310.0,
+        "y2": 3800.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down ladder 3",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to third ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3016.0,
+        "y1": 3515.0,
+        "x2": 3291.0,
+        "y2": 3790.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up ladder 5",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to second ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3015.0,
+        "y1": 3518.0,
+        "x2": 3280.0,
+        "y2": 3783.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down ladder 4",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to first ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3015.0,
+        "y1": 3518.0,
+        "x2": 3220.0,
+        "y2": 3723.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb down ladder 5",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-down"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Push secret wall again",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Wall",
+      "action": "Push"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Enter east room door",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Door",
+      "action": "Open"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleDialogue",
+      "stepId": "Handle Guard dialogue",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to meeting room ladder",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3022.0,
+        "y1": 3516.0,
+        "x2": 3128.0,
+        "y2": 3621.0,
+        "z": 0
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Climb up meeting room ladder",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Ladder",
+      "action": "Climb-up"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to second secret wall",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3029.0,
+        "y1": 3509.0,
+        "x2": 3117.0,
+        "y2": 3597.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.InteractWithEntity",
+      "stepId": "Push second secret wall",
+      "state": "COMPLETED",
+      "internalState": "OBJECT_INTERACTED",
+      "objectName": "Wall",
+      "action": "Push"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Go to cauldron hole",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 3030.0,
+        "y1": 3506.0,
+        "x2": 3107.0,
+        "y2": 3583.0,
+        "z": 1
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.UseItemOnGameObject",
+      "stepId": "Use cabbage on hole",
+      "state": "COMPLETED",
+      "internalState": "USING_ITEM_ON_OBJECT",
+      "itemName": "Cabbage",
+      "objectName": "Hole"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.HandleCutscene",
+      "stepId": "Watch cutscene",
+      "state": "COMPLETED",
+      "internalState": "DIALOGUE_HANDLED"
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.GoToLocation",
+      "stepId": "Return to Sir Amik Varze",
+      "state": "COMPLETED",
+      "internalState": "AT_LOCATION",
+      "LOCATION": {
+        "x1": 2957.0,
+        "y1": 3337.0,
+        "x2": 2972.0,
+        "y2": 3352.0,
+        "z": 2
+      }
+    },
+    {
+      "type": "BiffyQuester.BasicSteps.TalkToNPC",
+      "stepId": "Complete quest with Sir Amik Varze",
+      "state": "COMPLETED",
+      "internalState": "NPC_TALKED_TO",
+      "npcName": "Sir Amik Varze",
+      "dialogueOrder": []
+    }
+  ]
+}

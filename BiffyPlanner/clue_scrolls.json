@@ -50,38 +50,6 @@
 					"condition": "lte"
 				},
 				{
-					"name": "Iron ore",
-					"quantity": 1
-				},
-				{
-					"name": "Iron dagger",
-					"quantity": 1
-				},
-				{
-					"name": "Raw herring",
-					"quantity": 1
-				},
-				{
-					"name": "Raw trout",
-					"quantity": 1
-				},
-				{
-					"name": "Trout",
-					"quantity": 1
-				},
-				{
-					"name": "Pike",
-					"quantity": 1
-				},
-				{
-					"name": "Leather body",
-					"quantity": 1
-				},
-				{
-					"name": "Leather chaps",
-					"quantity": 1
-				},
-				{
 					"name": "Coins",
 					"quantity": 1000
 				},

@@ -1,0 +1,11 @@
+{
+	"rid": "black_knights_fortress",
+	"scripts": [
+		{
+			"name": "Quest",
+			"stepId": "Complete Black Knights Fortress",
+			"questName": "BlackKnightsFortress"
+		}
+	],
+	"restart": false
+}

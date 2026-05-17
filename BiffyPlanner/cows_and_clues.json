@@ -1,0 +1,136 @@
+{
+	"rid": "cows_and_clues",
+	"scripts": [
+		{
+			"name": "Combat",
+			"stepId": "Defence 10-40",
+			"lootWhitelist": ["Bones", "Cowhide", "Clue scroll (beginner)", "Scroll box (beginner)"],
+			"lootValueThreshold": 500,
+			"buryBones": true,
+			"bonesName": "Bones",
+			"combatStyle": "DEFENCE",
+			"target": "Cow",
+			"location": "LUMBRIDGE_COWS",
+			"equipment": [
+				{
+					"name": "Rune scimitar",
+					"quantity": 1,
+					"fallback": {
+						"name": "Adamant scimitar",
+						"quantity": 1
+					}
+				},
+				{
+					"name": "Wooden shield",
+					"quantity": 1
+				},
+				{
+					"name": "Amulet of strength",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Air rune",
+					"quantity": 300
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 100
+				}
+			],
+			"bankConditions": [
+				{
+					"item": "Cowhide",
+					"condition": "eq",
+					"value": 25
+				},
+				{
+					"item": "Scroll box (beginner)",
+					"condition": "eq",
+					"value": 1
+				},
+				{
+					"item": "Clue scroll (beginner)",
+					"condition": "eq",
+					"value": 1
+				}
+			],
+			"stopCondition": {
+				"skill": "Defence",
+				"level": 40,
+				"bankContains": [
+					{
+						"item": "Scroll box (beginner)",
+						"condition": "eq",
+						"value": 2
+					}
+				]
+			}
+		},
+		{
+			"name": "ClueScrolls",
+			"stepId": "Solve beginner clue",
+			"equipment": [
+				{
+					"name": "Chronicle",
+					"quantity": 1
+				},
+				{
+					"name": "Staff of air",
+					"quantity": 1
+				}
+			],
+			"inventory": [
+				{
+					"name": "Fire rune",
+					"quantity": 100
+				},
+				{
+					"name": "Water rune",
+					"quantity": 100
+				},
+				{
+					"name": "Earth rune",
+					"quantity": 100
+				},
+				{
+					"name": "Law rune",
+					"quantity": 20
+				},
+				{
+					"name": "Spade",
+					"quantity": 1
+				},
+				{
+					"name": "Clue scroll (beginner)",
+					"quantity": 1,
+					"fallback": {
+						"name": "Scroll box (beginner)",
+						"quantity": 2,
+						"condition": "lte"
+					}
+				},
+				{
+					"name": "Strange device",
+					"quantity": 1,
+					"condition": "lte"
+				},
+				{
+					"name": "Coins",
+					"quantity": 1000
+				},
+				{
+					"name": "Reward casket (beginner)",
+					"quantity": 1,
+					"condition": "lte"
+				}
+			]
+		}
+	],
+	"restart": true
+}

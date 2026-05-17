@@ -1,0 +1,11 @@
+{
+	"rid": "vampyre_slayer",
+	"scripts": [
+		{
+			"name": "Quest",
+			"stepId": "Complete Vampyre Slayer",
+			"questName": "VampyreSlayer"
+		}
+	],
+	"restart": false
+}
